@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytest-selenium"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Sergeev <pavel.al.sergeev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pytest_selenium"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.1"
+selenium = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
